@@ -2,16 +2,7 @@ import { Button } from '@pankod/refine-mui';
 
 import { CustomButtonProps } from 'interfaces/common';
 
-const CustomButton = ({
-    type,
-    title,
-    backgroundColor,
-    color,
-    fullWidth,
-    icon,
-    handleClick,
-    disabled,
-}: CustomButtonProps) => {
+const CustomButton = ({ type, title, backgroundColor, color, fullWidth, icon, handleClick, disabled, }: CustomButtonProps) => {
     return (
         <Button
           disabled={disabled}
